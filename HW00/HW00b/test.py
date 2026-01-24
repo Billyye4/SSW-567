@@ -15,5 +15,8 @@ class TestTriangle(unittest.TestCase):
     def testRightTriangle(self):
         self.assertEqual(defineTriangle(3, 4, 5), "Right Triangle")
 
+    def testNotTriangle(self):
+        self.assertEqual(defineTriangle(3, 0, 5), "Not a triangle")
+
 if __name__ == '__main__':
     unittest.main()
