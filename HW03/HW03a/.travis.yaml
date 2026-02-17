@@ -1,0 +1,11 @@
+language: python
+python:
+  - "3.14.2"
+
+# Install the requests library so your code can run
+install:
+  - pip install requests
+
+# Command to run your test file
+script:
+  - python hw03a_test.py
