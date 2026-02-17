@@ -8,4 +8,4 @@ install:
 
 # Command to run your test file
 script:
-  - python hw03a_test.py
+  - python HW03/HW03a/hw03a_test.py
