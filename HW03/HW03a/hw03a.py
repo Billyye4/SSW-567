@@ -22,5 +22,5 @@ def getInfo(userID):
     return repos
 
 if __name__ == "__main__":
-    info = getInfo("Billyye4")
+    info = getInfo("BillyYe1")
     print(info)
